@@ -10,9 +10,9 @@ jobs:
       matrix:
         include:
           - context_name: ./frontend
-            image_name: ghcr.io/Valandr/github-actions-docker/frontend:latest
+            image_name: ghcr.io/valandr/github-actions-docker/frontend:latest
           - context_name: ./node-api
-            image_name: ghcr.io/Valandr/github-actions-docker/node-api:latest
+            image_name: ghcr.io/valandr/github-actions-docker/node-api:latest
 
     permissions:
       packages: write
