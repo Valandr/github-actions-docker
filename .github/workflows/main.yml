@@ -15,6 +15,7 @@ jobs:
             image_name: ghcr.io/valandr/github-actions-docker/node-api:latest
 
     permissions:
+      contents: read
       packages: write
 
     steps:
